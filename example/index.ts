@@ -1,5 +1,5 @@
 import { type FunctionComponent, render } from 'preact'
-import Atrament from '@bicycle-codes/atrament'
+import Atrament from 'atrament'
 import { html, } from 'htm/preact'
 import { useEffect } from 'preact/hooks'
 import { waitFor } from '@bicycle-codes/dom'

@@ -26,8 +26,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@bicycle-codes/atrament": "^4.3.4",
-    "@bicycle-codes/dom": "^0.1.2"
+    "@bicycle-codes/dom": "^0.1.2",
+    "atrament": "^4.4.1"
   },
   "devDependencies": {
     "@bicycle-codes/debug": "^0.6.13",
