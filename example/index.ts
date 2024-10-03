@@ -13,7 +13,11 @@ const Example:FunctionComponent<unknown> = function () {
         (async () => {
             const canvas = await waitFor('canvas')
             console.log('canvas', canvas)
-            const atrament = new Atrament(canvas)
+            const atrament = new Atrament(canvas, {
+                width: 400,
+                height: 400,
+                color: 'orange'
+            })
             console.log('atrrr', atrament)
         })()
     }, [])
